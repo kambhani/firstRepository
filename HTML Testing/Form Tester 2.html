@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Tester 2</title>
+        <style>
+            input[type=text] {
+                background-color: aqua;
+            }
+            input[type=password] {
+                background-color: aquamarine;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input name="username" type="text" placeholder="Username">
+            <input name="password" type="password" placeholder="Password">
+        </div>
+        <div>
+            Favorite color?
+            <input name="red" type="radio" value="red">RED
+            <input name="orange" type="radio" value="orange">ORANGE
+            <input name="yellow" type="radio" value="yellow">YELLOW
+            <input name="green" type="radio" value="green">GREEN
+            <input name="blue" type="radio" value="blue">BLUE
+            <input name="purple" type="radio" value="purple">PURPLE
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="COUNTRY">
+            <datalist id="countries">
+                <option value="U.S."></option>
+                <option value="UK"></option>
+            </datalist>
+        </div>
+    </body>
+</html>
