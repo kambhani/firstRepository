@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A cool Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 700px) {
+                h1::after {
+                    content: "You on big screen";
+                }
+            }
+            @media (max-width: 699px) {
+                h1::after {
+                    content: "You on small screen";
+                }
+            }
+            h1::selection {
+                color:aliceblue;
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="color: yellowgreen; text-align: justify;">My 100% accurate guess: </h1>
+    </body>
+</html>

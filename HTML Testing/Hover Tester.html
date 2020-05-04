@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hover Tester</title>
+        <style>
+            button {
+                width: 50%;
+                height: 50px;
+                font-size: 20px;
+                background-color: aquamarine;
+            }
+            button:hover {
+                background-color: blue;
+            }
+            a::before {
+                content: "\21d2 Totally NOT: ";
+                font-weight: bold;
+            }
+            p::selection {
+                color: chartreuse;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <button><a href="#">ClickBait!</a></button>
+        <p>
+            This is the most epic text you noncoders will ever see. Turn around now, and you might acquire one tenth
+            of the greatness I possess.
+        </p>
+    </body>
+</html>

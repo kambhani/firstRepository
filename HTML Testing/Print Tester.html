@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Print Tester</title>
+        <style>
+            @media (min-width: 500px) {
+                body {
+                    background-color: aqua;
+                }
+            }
+            @media (max-width: 499px) {
+                body {
+                    background-color: blueviolet;
+                }
+            }
+            @media print {
+                .screen-only {
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <p>This is the first paragraph</p>
+        <p>This is the second paragraph</p>
+        <p class="screen-only">This won't appear on a printed page</p>
+    </body>
+</html>
