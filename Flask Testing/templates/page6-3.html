@@ -1,0 +1,15 @@
+{% extends "page6-1.html" %}
+
+{% block heading %}
+    More Page
+{% endblock %}
+
+{% block body %}
+    <p>
+        Here is some sample text that you should read. If you do not, however, 
+        there is no forseeable consequence. In fact, this text is rather useless 
+        and is just being just as some placeholder text. I could have copied the 
+        "Lorem Ipsum" text but this is far more fun.
+    </p>
+    <a href="{{ url_for('home') }}">Return home</a>
+{% endblock %}
